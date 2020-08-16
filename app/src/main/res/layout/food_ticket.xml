@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@color/geray"
+    android:orientation="vertical"
+    android:padding="3pt"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+    //LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/merna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1 "
+            android:src="@drawable/merna" />
+        //LinearLayout
+          />/  android:layout_width="match_parent"
+         //   android:background="@color/white"
+          //  android:orientation="vertical"
+          //  android:layout_weight="1"
+          //  android:padding="2pt"
+           // android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/name"
+            android:text="Coffee"
+            android:layout_weight="0"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"/>
+            //TextView
+               // android:id="@+id/des"
+              //  android:text="Could Be prepare with suger"
+               // android:textSize="25dp"
+              //  android:textColor="@color/black"
+              //  android:layout_width="match_parent"
+
+                //android:layout_height="wrap_content"/>
+    //LinearLayout>
+
+   // LinearLayout>
+
+</LinearLayout>

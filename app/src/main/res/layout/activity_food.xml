@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".foodActivity">
+    <ImageView
+        android:id="@+id/Merna"
+        android:src="@drawable/merna"
+        android:layout_margin="30dp"
+        android:layout_width="140pt"
+        android:layout_height="100pt"/>
+    <TextView
+        android:id="@+id/tex1"
+        android:text="Coffee"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tex2"
+        android:text="Coffee is a good source of antioxidants—Americans get more antioxidants from coffee than from any other beverage. Additionally, coffee contains nutrients like riboflavin, pantothenic acid, manganese, potassium, magnesium, and niacin. Last, but not least, it contains caffeine. Studies have shown that coffee may lower the risk of type 2 diabetes, Alzheimer’s disease, Parkinson’s disease, and dementia."
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
